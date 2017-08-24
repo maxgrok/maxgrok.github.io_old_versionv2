@@ -55,6 +55,7 @@ to:
 			artist.add_song(self)
 		end
 	end 
+	
 {% end %}
 
 The above edit accounts for what to do if artist is nil, as well as not nil. The problem I was having before is that artist.add_song(self) was not sufficient because I was not defining the artist as equal to an instance variable of @artist <em>first</em>. 
