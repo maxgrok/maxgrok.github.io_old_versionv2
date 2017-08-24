@@ -6,6 +6,14 @@ archive: false
 date: 2017-08-23T23:36:28-04:00
 ---
 
-This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. 
+This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. <br>
+
+Here's a breakdown of the instructions: 
+Create an Artist, Song, and Genre class
+*all classes accept a name on initialization
+*all classes have a class variable of an array called all that is accessible via the class method .all
+*all classes have a .destroy_all method that resets the class variable 'all' array to an empty array
+*all classes have a custom constructor of .create 
+*all classes have a method #save to save the instance of the class into their class variable 'all' array
 
 Now, I have just now gotten stuck on the <em>Song#artist=</em> method. 
