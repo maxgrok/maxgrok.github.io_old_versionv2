@@ -17,7 +17,6 @@ Here's a breakdown of the instructions: <br><br>
 	<li>All classes have a custom constructor of .create</li> 
 	<li>All classes have a method #save to save the instance of the class into their class variable 'all' array</li>
 </ul>
-<br><br>
 
 2) Map Relationships Between Classes
 <ul>
