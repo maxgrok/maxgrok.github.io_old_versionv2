@@ -8,7 +8,7 @@ date: 2017-08-24T10:30:28-04:00
 
 This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. <br>
 
-Here's a breakdown of the instructions: 
+Here's a breakdown of the instructions: <br><br>
 (1) Create an Artist, Song, and Genre class
 <ul>
 	<li>All classes accept a name on initialization</li>
@@ -55,7 +55,7 @@ to:
 			artist.add_song(self)
 		end
 	end 
-	
+
 {% end %}
 
 The above edit accounts for what to do if artist is nil, as well as not nil. The problem I was having before is that artist.add_song(self) was not sufficient because I was not defining the artist as equal to an instance variable of @artist <em>first</em>. 
