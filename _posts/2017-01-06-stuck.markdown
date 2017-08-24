@@ -2,7 +2,7 @@
 layout: post
 title: "Stuck: Alphabetizing an Array within a Hash"
 comments: true
-archive: false
+archive: true
 date: 2017-01-06T17:56:42-05:00
 ---
 
