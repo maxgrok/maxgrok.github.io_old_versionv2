@@ -6,7 +6,7 @@ archive: false
 date: 2017-08-24T10:30:28-04:00
 ---
 
-This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. <br><br>
+The Music Library CLI Lab is a lab where one is tasked with creating  a music library that is easily accessible to search through, add songs, delete songs, and navigate through the command line interface. This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. <br><br>
 
 Here's a breakdown of the instructions: <br><br>
 (1) Create an Artist, Song, and Genre class
