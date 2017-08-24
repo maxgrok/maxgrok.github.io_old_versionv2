@@ -9,7 +9,7 @@ date: 2017-08-24T10:47:28-04:00
 The Music Library CLI Lab is a lab where one is tasked with creating  a music library that is easily accessible to search through, add songs, delete songs, and navigate through the command line interface. This is one of the final projects in the Ruby track for the Flatiron School Community-Based Bootcamp. <br><br>
 
 Here's a breakdown of the instructions: <br><br>
-(1) Create an Artist, Song, and Genre class
+1) Create an Artist, Song, and Genre class
 <ul>
 	<li>All classes accept a name on initialization</li>
 	<li>All classes have a class variable of an array called all that is accessible via the class method .all</li>
@@ -17,8 +17,9 @@ Here's a breakdown of the instructions: <br><br>
 	<li>All classes have a custom constructor of .create</li> 
 	<li>All classes have a method #save to save the instance of the class into their class variable 'all' array</li>
 </ul>
+<br><br>
 
-(2) Map Relationships Between Classes
+2) Map Relationships Between Classes
 <ul>
 	<li><em>Song and Artist</em></li>
 		<ul>
@@ -31,7 +32,7 @@ Here's a breakdown of the instructions: <br><br>
 	<li><em>Artist and Genre</em></li>
 </ul>
 Now, I was just stuck on the <em>Song#artist=</em> method. <br><br>
-I just got unstuck by refactoring the Song#artist= method from: 
+I just got unstuck by refactoring the Song#artist= method from:<br> 
 {% highlight ruby linenos %}
 
 	def artist=(artist)
