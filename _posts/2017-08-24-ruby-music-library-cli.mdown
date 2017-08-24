@@ -57,6 +57,16 @@ to:
 	end 
 
 {% end %}
+<br>
+Artist#add_song method:<br>
+{% highlight ruby linenos %}
+
+def add_song(song)
+		@songs.include?(song) ? @songs : @songs << song
+		song.artist == nil ? song.artist = self : @songs
+	end
+{% end %}
+
 
 The above edit accounts for what to do if artist is nil, as well as not nil. The problem I was having before is that artist.add_song(self) was not sufficient because I was not defining the artist as equal to an instance variable of @artist <em>first</em>. 
 
